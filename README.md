@@ -9,6 +9,10 @@
 
 ## 连线
 
+![](https://raw.githubusercontent.com/crd57/Graph-bed/master/20200627153618.jpg)
+
+![](https://raw.githubusercontent.com/crd57/Graph-bed/master/20200627153646.jpg)
+
 ## TODO
 
 现在的按钮切换还有点Bug需要再调整一下
