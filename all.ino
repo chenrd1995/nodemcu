@@ -76,18 +76,18 @@ void setup() {
   Serial.println(WiFi.localIP());//打印出开发板的IP地址
 
   //button
-  pinMode(button,INPUT);
+  pinMode(button,INPUT_PULLUP);
 }
 int value = 0;
 void loop() {
   button_switch = digitalRead(button);
   if(button_switch == HIGH){
     if(change == 1)change =0;
-    else change =1; 
+    else change = 1; 
     Serial.println("切换模式");
     Serial.println((int)change);
     }
-  if(change == 0){
+  if(change == 1){
     sendrequest();
     draw_CPU(); // 显示CPU
     delay(2000);
